@@ -42,6 +42,9 @@ AVAILABLE_LLMS = [
     # Google Gemini models
     "gemini-1.5-flash",
     "gemini-1.5-pro",
+    # New models
+    "perplexity-api",
+    "grok-xai-api"
 ]
 
 
