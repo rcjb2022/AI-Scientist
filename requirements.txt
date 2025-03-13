@@ -4,6 +4,8 @@ aider-chat
 backoff
 openai
 google-generativeai
+grok-xai
+perplexity
 # Viz
 matplotlib
 pypdf
