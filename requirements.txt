@@ -6,6 +6,7 @@ openai
 google-generativeai
 grok-xai
 perplexity
+open-evidence
 # Viz
 matplotlib
 pypdf
