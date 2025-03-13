@@ -84,7 +84,7 @@ We support a wide variety of models, including open-weight and API-only models. 
 
 By default, this uses the `OPENAI_API_KEY` environment variable.
 
-#### Anthropic API (Claude Sonnet 3.5)
+#### Anthropic API (Claude Sonnet 3.5) March 2025 currently Claude 3.7
 
 By default, this uses the `ANTHROPIC_API_KEY` environment variable.
 
@@ -118,7 +118,7 @@ export VERTEXAI_LOCATION="REGION"         # for Aider/LiteLLM call
 export VERTEXAI_PROJECT="PROJECT_ID"      # for Aider/LiteLLM call
 ```
 
-#### DeepSeek API (deepseek-chat, deepseek-reasoner)
+#### DeepSeek API (deepseek-chat, deepseek-reasoner) I am looking to see if perplexity API can be an alternative, or even Grok 3.0 from Xai
 By default, this uses the `DEEPSEEK_API_KEY` environment variable.
 
 #### OpenRouter API (Llama3.1)
@@ -126,7 +126,7 @@ By default, this uses the `DEEPSEEK_API_KEY` environment variable.
 By default, this uses the `OPENROUTER_API_KEY` environment variable.
 
 #### Google Gemini
-We support Google Gemini models (e.g., "gemini-1.5-flash", "gemini-1.5-pro") via the [google-generativeai](https://pypi.org/project/google-generativeai) Python library. By default, it uses the environment variable:
+We support Google Gemini models (e.g., "gemini-1.5-flash", "gemini-1.5-pro") (March 2026 currently gemini-2.0-flash) via the [google-generativeai](https://pypi.org/project/google-generativeai) Python library. By default, it uses the environment variable:
 
 ```bash
 export GEMINI_API_KEY="YOUR GEMINI API KEY"
@@ -134,7 +134,7 @@ export GEMINI_API_KEY="YOUR GEMINI API KEY"
 
 #### Semantic Scholar API (Literature Search)
 
-Our code can also optionally use a Semantic Scholar API Key (`S2_API_KEY`) for higher throughput [if you have one](https://www.semanticscholar.org/product/api), though it should work without it in principle. If you have problems with Semantic Scholar, you can skip the literature search and citation phases of paper generation.
+Our code can also optionally use a Semantic Scholar API Key (`S2_API_KEY`) for higher throughput [if you have one](https://www.semanticscholar.org/product/api), though it should work without it in principle. If you have problems with Semantic Scholar, you can skip the literature search and citation phases of paper generation. March 13 2025 I have requested an API key but they are currently on pause.  Will be using OpenAlex, which does not require an API key.  I have also inquired of Open Evidence for an API keyy, status unknown.
 
 Be sure to provide the key for the model used for your runs, e.g.:
 
